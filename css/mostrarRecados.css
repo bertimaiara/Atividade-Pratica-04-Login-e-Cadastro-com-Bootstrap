@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .azul-royal {
+    background-color: #5667cb;
+    color: white;
+  }
+  
+  .height-header {
+    height: 50px;
+  }
+  
+  .margin-row {
+    margin-top: 100px;
+  }
+
+  .botao-novo-recado{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    color: #5667cb;
+}
+
+.botao-novo-recado a.btn {
+    color: #5667cb;
+}

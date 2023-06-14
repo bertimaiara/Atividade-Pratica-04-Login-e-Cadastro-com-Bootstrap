@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .azul-royal {
+    background-color: #5667cb;
+    color: white;
+  }
+  
+  .height-header {
+    height: 50px;
+  }
+  
+  .margin-row {
+    margin-top: 100px;
+  }

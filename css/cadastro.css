@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.azul-royal {
+  background-color: #5667cb;
+  color: white;
+}
+
+.height-header {
+  height: 50px;
+}
+
+.margin-row {
+  margin-top: 100px;
+}
+
+.sign-in-now {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  #container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    #password1 {
+      width: 551px;
+    }
+    #password2 {
+        width: 551px;
+    }
+  }
