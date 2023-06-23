@@ -21,7 +21,7 @@ function signIn(email, password) {
     .post("/login", { email, password })
     .then((response) => {
       alert("Usuário logado!");
-      location.href = "./mostrarRecados.html";
+      window.location.href = "./mostrarRecados.html";
     })
     .catch((err) => {
       alert("Deu erro no login");

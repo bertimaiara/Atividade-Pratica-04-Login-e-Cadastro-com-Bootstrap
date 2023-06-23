@@ -105,7 +105,7 @@ const api = axios.create({
 
   function logout() {
     localStorage.removeItem("logado")
-    location.href = "./index.html"
+    window.location.href = "./index.html"
   }
 
   mostrarRecados();

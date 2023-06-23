@@ -21,7 +21,7 @@ function cadastrarRecado(titulo, descricao) {
     .post("/recados", { titulo, descricao })
     .then((response) => {
       alert("Recado cadastrado com sucesso!");
-      location.href = "./mostrarRecados.html";
+      window.location.href = "./mostrarRecados.html";
     })
     .catch((err) => {
       alert("Recado não cadastrado");

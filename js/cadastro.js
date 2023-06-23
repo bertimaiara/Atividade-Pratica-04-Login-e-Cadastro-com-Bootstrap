@@ -24,7 +24,7 @@ function createUser() {
     .post("/usuarios", form)
     .then((res) => {
       alert('Usuário cadastrado!');
-      location.href = "./index.html";
+      window.location.href = "./index.html";
       console.log(response.data.usuario)
       saveLocalStorage("logado", response.data.usuario);
     })
